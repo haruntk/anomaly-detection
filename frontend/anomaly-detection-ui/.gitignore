@@ -1,0 +1,56 @@
+# node_modules klasörünü dışla
+node_modules/
+
+# build çıktılarını dışla
+/build
+/dist
+
+# OS / IDE / Editor dosyaları
+.DS_Store
+Thumbs.db
+
+# dotenv gizli anahtar dosyaları
+.env
+.env.*.local
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Log dosyaları
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Yarn v2+
+.yarn/*
+!.yarn/patches
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
+.pnpjs.js
+
+# coverage test çıktısı (jest, cypress vs.)
+coverage/
+*.lcov
+
+# vsCode / JetBrains
+.vscode/
+.idea/
+
+# build cache klasörleri
+.cache/
+.next/
+out/
+
+# static analiz / lint cache
+.eslintcache
+
+# Typescript build output
+*.tsbuildinfo
+
+# storybook output
+.storybook-out/

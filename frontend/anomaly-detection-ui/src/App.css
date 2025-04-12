@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.MuiPaper-root {
+  transition: all 0.3s ease-in-out;
+}
+
+.MuiPaper-root:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.recharts-wrapper {
+  background: transparent !important;
+}
+
+.recharts-default-tooltip {
+  background-color: rgba(0, 0, 0, 0.8) !important;
+  border: 1px solid #00ff9f !important;
+  border-radius: 4px;
+  padding: 8px !important;
+}
+
+.recharts-tooltip-label {
+  color: #00ff9f !important;
+}
+
+.recharts-default-legend {
+  background-color: transparent !important;
+  padding: 8px !important;
+}
+
+.recharts-legend-item-text {
+  color: #fff !important;
+}
+
+.MuiAppBar-root {
+  background: linear-gradient(90deg, #1a1a1a 0%, #2d2d2d 100%) !important;
+}
+
+.MuiTypography-root {
+  font-family: 'Roboto', sans-serif !important;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.MuiIconButton-root:hover {
+  animation: pulse 1s infinite;
+}
